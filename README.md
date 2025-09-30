@@ -10,7 +10,7 @@ It is designed to be **easy to use**, **CPU-friendly**, and **beginner-friendly*
 ## Features
 
 - 🎮 **Raylib integration** → simple and fast rendering  
-- 🧩 **Bevy ECS** → modern entity-component-system architecture  
+- 🧩 **Bevy ECS** → modern entity-component-system architecture (Not fully yet)  
 - 🖼️ **Customizable draw system** → add any 3D draw function in `draw3d.rs`  
 - 🪟 **Main loop and window setup** → handled in `wint.rs`  
 - 📦 **Library exports** → managed through `lib.rs` and `prelude.rs`  
