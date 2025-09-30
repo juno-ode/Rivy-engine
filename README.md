@@ -1,4 +1,5 @@
 # Rivy Game Engine (made in rust)
+<img width="512" height="512" alt="extension_icon" src="https://github.com/user-attachments/assets/9c7c2a53-62f1-4a57-9350-2f25bb25c73b" />
 
 **Rivy** is a lightweight game engine built on top of **Raylib** and **Bevy ECS**.  
 It is designed to be **easy to use**, **CPU-friendly**, and **beginner-friendly** while still giving you the power of ECS.  
