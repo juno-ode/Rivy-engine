@@ -1,0 +1,11 @@
+[package]
+name = "rivy"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+raylib = "5.5.1"
+bevy_ecs = "0.16.1"
+bevy_math = "0.16.1"
+
+

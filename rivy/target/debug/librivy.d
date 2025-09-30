@@ -1,0 +1,1 @@
+/home/juno/Documents/rivy/target/debug/librivy.rlib: /home/juno/Documents/rivy/src/add.rs /home/juno/Documents/rivy/src/camra3d.rs /home/juno/Documents/rivy/src/darw3d.rs /home/juno/Documents/rivy/src/game.rs /home/juno/Documents/rivy/src/lib.rs /home/juno/Documents/rivy/src/winit.rs

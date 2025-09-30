@@ -1,0 +1,1 @@
+{"rustc":16285725380928457773,"features":"[]","declared_features":"[\"nondeterministic_tests\"]","target":16930871482644176997,"profile":2241668132362809309,"path":15466844785560940994,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"debug/.fingerprint/spin_sleep-9dd22cc164ac4d38/dep-lib-spin_sleep","checksum":false}}],"rustflags":[],"config":2069994364910194474,"compile_kind":0}
