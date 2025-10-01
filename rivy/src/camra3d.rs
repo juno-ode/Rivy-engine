@@ -6,6 +6,7 @@ use raylib::prelude::*; // raylib types
 #[derive(Component)]
 pub struct CommandedCamera {
     pub camera: Camera3D,
+    
 }
 
 impl CommandedCamera {
@@ -15,4 +16,6 @@ impl CommandedCamera {
         }
     }
 }
+
+
 

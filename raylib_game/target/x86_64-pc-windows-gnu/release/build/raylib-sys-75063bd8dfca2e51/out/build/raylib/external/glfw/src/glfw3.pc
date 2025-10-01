@@ -1,0 +1,13 @@
+prefix=/home/juno/Documents/raylib_game/target/x86_64-pc-windows-gnu/release/build/raylib-sys-75063bd8dfca2e51/out
+exec_prefix=${prefix}
+includedir=/home/juno/Documents/raylib_game/target/x86_64-pc-windows-gnu/release/build/raylib-sys-75063bd8dfca2e51/out/include
+libdir=/home/juno/Documents/raylib_game/target/x86_64-pc-windows-gnu/release/build/raylib-sys-75063bd8dfca2e51/out/lib
+
+Name: GLFW
+Description: A multi-platform library for OpenGL, window and input
+Version: 3.4.0
+URL: https://www.glfw.org/
+Requires.private: 
+Libs: -L${libdir} -lglfw3
+Libs.private:  -lgdi32
+Cflags: -I${includedir}

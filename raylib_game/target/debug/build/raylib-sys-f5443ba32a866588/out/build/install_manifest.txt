@@ -1,0 +1,7 @@
+/home/juno/Documents/raylib_game/target/debug/build/raylib-sys-f5443ba32a866588/out/lib64/libraylib.a
+/home/juno/Documents/raylib_game/target/debug/build/raylib-sys-f5443ba32a866588/out/include/raylib.h
+/home/juno/Documents/raylib_game/target/debug/build/raylib-sys-f5443ba32a866588/out/include/rlgl.h
+/home/juno/Documents/raylib_game/target/debug/build/raylib-sys-f5443ba32a866588/out/include/raymath.h
+/home/juno/Documents/raylib_game/target/debug/build/raylib-sys-f5443ba32a866588/out/lib64/pkgconfig/raylib.pc
+/home/juno/Documents/raylib_game/target/debug/build/raylib-sys-f5443ba32a866588/out/lib64/cmake/raylib/raylib-config-version.cmake
+/home/juno/Documents/raylib_game/target/debug/build/raylib-sys-f5443ba32a866588/out/lib64/cmake/raylib/raylib-config.cmake

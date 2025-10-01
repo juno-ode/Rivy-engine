@@ -1,0 +1,150 @@
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-changed=./binding/binding.h
+CMAKE_TOOLCHAIN_FILE_x86_64-pc-windows-gnu = None
+CMAKE_TOOLCHAIN_FILE_x86_64_pc_windows_gnu = None
+TARGET_CMAKE_TOOLCHAIN_FILE = None
+CMAKE_TOOLCHAIN_FILE = None
+CMAKE_GENERATOR_x86_64-pc-windows-gnu = None
+CMAKE_GENERATOR_x86_64_pc_windows_gnu = None
+TARGET_CMAKE_GENERATOR = None
+CMAKE_GENERATOR = None
+CMAKE_PREFIX_PATH_x86_64-pc-windows-gnu = None
+CMAKE_PREFIX_PATH_x86_64_pc_windows_gnu = None
+TARGET_CMAKE_PREFIX_PATH = None
+CMAKE_PREFIX_PATH = None
+CMAKE_x86_64-pc-windows-gnu = None
+CMAKE_x86_64_pc_windows_gnu = None
+TARGET_CMAKE = None
+CMAKE = None
+running: cd "/home/juno/Documents/raylib_game/target/x86_64-pc-windows-gnu/release/build/raylib-sys-75063bd8dfca2e51/out/build" && CMAKE_PREFIX_PATH="" LC_ALL="C" "cmake" "/home/juno/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/./raylib" "-DCMAKE_RC_COMPILER=/usr/bin/x86_64-w64-mingw32-windres" "-DCMAKE_BUILD_TYPE=Release" "-DBUILD_EXAMPLES=OFF" "-DCMAKE_BUILD_TYPE=Release" "-DSUPPORT_BUSY_WAIT_LOOP=OFF" "-DSUPPORT_FILEFORMAT_JPG=ON" "-DUSE_WAYLAND=OFF" "-DOPENGL_VERSION=OFF" "-DSUPPORT_SCREEN_CAPTURE=ON" "-DSUPPORT_GIF_RECORDING=ON" "-DPLATFORM=Desktop" "-DCMAKE_SYSTEM_NAME=Windows" "-DCMAKE_SYSTEM_PROCESSOR=AMD64" "-DCMAKE_INSTALL_PREFIX=/home/juno/Documents/raylib_game/target/x86_64-pc-windows-gnu/release/build/raylib-sys-75063bd8dfca2e51/out" "-DCMAKE_C_FLAGS= -ffunction-sections -fdata-sections -m64" "-DCMAKE_C_COMPILER=/usr/bin/x86_64-w64-mingw32-gcc" "-DCMAKE_CXX_FLAGS= -ffunction-sections -fdata-sections -m64" "-DCMAKE_CXX_COMPILER=/usr/bin/x86_64-w64-mingw32-g++" "-DCMAKE_ASM_FLAGS= -ffunction-sections -fdata-sections -m64" "-DCMAKE_ASM_COMPILER=/usr/bin/x86_64-w64-mingw32-gcc"
+-- The C compiler identification is GNU 14.2.1
+-- The CXX compiler identification is GNU 14.2.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/x86_64-w64-mingw32-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/x86_64-w64-mingw32-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test COMPILER_HAS_THOSE_TOGGLES
+-- Performing Test COMPILER_HAS_THOSE_TOGGLES - Success
+-- Testing if -Werror=pointer-arith can be used -- compiles
+-- Testing if -Werror=implicit-function-declaration can be used -- compiles
+-- Testing if -fno-strict-aliasing can be used -- compiles
+-- Using raylib's GLFW
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Including Win32 support
+-- Looking for dinput.h
+-- Looking for dinput.h - found
+-- Looking for xinput.h
+-- Looking for xinput.h - found
+-- Audio Backend: miniaudio
+-- Building raylib static library
+-- Generated build type: Release
+-- Compiling with the flags:
+--   PLATFORM=PLATFORM_DESKTOP
+--   GRAPHICS=GRAPHICS_API_OPENGL_33
+-- Configuring done (1.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/juno/Documents/raylib_game/target/x86_64-pc-windows-gnu/release/build/raylib-sys-75063bd8dfca2e51/out/build
+running: cd "/home/juno/Documents/raylib_game/target/x86_64-pc-windows-gnu/release/build/raylib-sys-75063bd8dfca2e51/out/build" && LC_ALL="C" MAKEFLAGS="-j --jobserver-fds=8,10 --jobserver-auth=8,10" "cmake" "--build" "/home/juno/Documents/raylib_game/target/x86_64-pc-windows-gnu/release/build/raylib-sys-75063bd8dfca2e51/out/build" "--target" "install" "--config" "Release"
+[  3%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj
+[  6%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj
+[ 10%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj
+[ 13%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj
+[ 17%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj
+[ 20%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj
+[ 24%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj
+[ 27%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj
+[ 31%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj
+[ 34%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj
+[ 37%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj
+[ 41%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj
+[ 44%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj
+[ 48%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj
+[ 51%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj
+[ 55%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj
+[ 58%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj
+[ 62%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj
+[ 65%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj
+[ 68%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj
+[ 72%] Building C object raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj
+[ 72%] Built target glfw
+[ 75%] Building C object raylib/CMakeFiles/raylib.dir/rshapes.c.obj
+[ 79%] Building C object raylib/CMakeFiles/raylib.dir/raudio.c.obj
+[ 82%] Building C object raylib/CMakeFiles/raylib.dir/rtext.c.obj
+[ 86%] Building C object raylib/CMakeFiles/raylib.dir/rcore.c.obj
+[ 89%] Building C object raylib/CMakeFiles/raylib.dir/rmodels.c.obj
+[ 93%] Building C object raylib/CMakeFiles/raylib.dir/rtextures.c.obj
+[ 96%] Building C object raylib/CMakeFiles/raylib.dir/utils.c.obj
+[100%] Linking C static library libraylib.a
+[100%] Built target raylib
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/juno/Documents/raylib_game/target/x86_64-pc-windows-gnu/release/build/raylib-sys-75063bd8dfca2e51/out/lib/libraylib.a
+-- Installing: /home/juno/Documents/raylib_game/target/x86_64-pc-windows-gnu/release/build/raylib-sys-75063bd8dfca2e51/out/include/raylib.h
+-- Installing: /home/juno/Documents/raylib_game/target/x86_64-pc-windows-gnu/release/build/raylib-sys-75063bd8dfca2e51/out/include/rlgl.h
+-- Installing: /home/juno/Documents/raylib_game/target/x86_64-pc-windows-gnu/release/build/raylib-sys-75063bd8dfca2e51/out/include/raymath.h
+-- Installing: /home/juno/Documents/raylib_game/target/x86_64-pc-windows-gnu/release/build/raylib-sys-75063bd8dfca2e51/out/lib/pkgconfig/raylib.pc
+-- Installing: /home/juno/Documents/raylib_game/target/x86_64-pc-windows-gnu/release/build/raylib-sys-75063bd8dfca2e51/out/lib/cmake/raylib/raylib-config-version.cmake
+-- Installing: /home/juno/Documents/raylib_game/target/x86_64-pc-windows-gnu/release/build/raylib-sys-75063bd8dfca2e51/out/lib/cmake/raylib/raylib-config.cmake
+cargo:root=/home/juno/Documents/raylib_game/target/x86_64-pc-windows-gnu/release/build/raylib-sys-75063bd8dfca2e51/out
+cargo:rustc-link-search=native=/home/juno/Documents/raylib_game/target/x86_64-pc-windows-gnu/release/build/raylib-sys-75063bd8dfca2e51/out/lib
+cargo:rustc-link-lib=dylib=winmm
+cargo:rustc-link-lib=dylib=gdi32
+cargo:rustc-link-lib=dylib=user32
+cargo:rustc-link-lib=dylib=shell32
+cargo:rustc-link-lib=static=raylib
+OUT_DIR = Some(/home/juno/Documents/raylib_game/target/x86_64-pc-windows-gnu/release/build/raylib-sys-75063bd8dfca2e51/out)
+OPT_LEVEL = Some(3)
+TARGET = Some(x86_64-pc-windows-gnu)
+HOST = Some(x86_64-unknown-linux-gnu)
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-gnu
+CC_x86_64-pc-windows-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_gnu
+CC_x86_64_pc_windows_gnu = None
+cargo:rerun-if-env-changed=TARGET_CC
+TARGET_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CROSS_COMPILE
+CROSS_COMPILE = None
+RUSTC_LINKER = None
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+RUSTC_WRAPPER = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some(false)
+CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=TARGET_CFLAGS
+TARGET_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_gnu
+CFLAGS_x86_64_pc_windows_gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-gnu
+CFLAGS_x86_64-pc-windows-gnu = None
+CARGO_ENCODED_RUSTFLAGS = Some()
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-gnu
+AR_x86_64-pc-windows-gnu = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_gnu
+AR_x86_64_pc_windows_gnu = None
+cargo:rerun-if-env-changed=TARGET_AR
+TARGET_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rerun-if-env-changed=TARGET_ARFLAGS
+TARGET_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_gnu
+ARFLAGS_x86_64_pc_windows_gnu = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-gnu
+ARFLAGS_x86_64-pc-windows-gnu = None
+cargo:rustc-link-lib=static=rgui
+cargo:rustc-link-search=native=/home/juno/Documents/raylib_game/target/x86_64-pc-windows-gnu/release/build/raylib-sys-75063bd8dfca2e51/out

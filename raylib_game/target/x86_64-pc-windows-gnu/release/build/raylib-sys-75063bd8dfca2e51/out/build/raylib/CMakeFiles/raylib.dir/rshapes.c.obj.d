@@ -1,0 +1,28 @@
+raylib/CMakeFiles/raylib.dir/rshapes.c.obj: \
+ /home/juno/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/rshapes.c \
+ /home/juno/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/raylib.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14.2.1/include/stdarg.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/stdarg.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/_mingw_stdarg.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/vadefs.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/_mingw.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/_mingw_mac.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/_mingw_secapi.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/sdks/_mingw_ddk.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14.2.1/include/stdbool.h \
+ /home/juno/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/config.h \
+ /home/juno/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/rlgl.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/math.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/crtdefs.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/corecrt.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14.2.1/include/float.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/float.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/stdlib.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/corecrt_wstdlib.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14.2.1/include/limits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14.2.1/include/syslimits.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/limits.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/sec_api/stdlib_s.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/malloc.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14.2.1/include/mm_malloc.h \
+ /usr/x86_64-w64-mingw32/sys-root/mingw/include/errno.h

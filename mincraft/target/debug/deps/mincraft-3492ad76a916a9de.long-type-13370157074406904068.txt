@@ -1,0 +1,2 @@
+fn(rivy::prelude::Vector3, rivy::prelude::Vector3, rivy::prelude::Color) -> rivy::darw3d::Cube {rivy::darw3d::Cube::new}
+fn(rivy::prelude::Vector3, rivy::prelude::Vector3, rivy::prelude::Color) -> rivy::darw3d::Cube {rivy::darw3d::Cube::new}: bevy_ecs::world::entity_fetch::WorldEntityFetch
