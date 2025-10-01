@@ -22,7 +22,7 @@ It is designed to be **easy to use**, **CPU-friendly**, and **beginner-friendly*
 
 - ✅ Core engine loop (`wint.rs`)  
 - ✅ 3D drawing (`draw3d.rs`)  
-- 🎮 keybord input system  (`runtimesys.rs`)
+- ✅ keybord input system  (`runtimesys.rs`)
 - 🔄 *Coming soon*: 2D rendering support  
 - 🔄 Add more Raylib functions  
 - ✅ ECS examples dir: minecraft
