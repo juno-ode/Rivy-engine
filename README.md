@@ -4,14 +4,15 @@
 
 **Rivy** is a lightweight game engine built on top of **Raylib** and **Bevy ECS**.  
 It is designed to be **easy to use**, **CPU-friendly**, and **beginner-friendly** while still giving you the power of ECS.  
-⚠️ Currently in **prototype stage**.
+⚠️ Not done adding all of raylibs func *no crate*
 
 ---
 
 ## Features
 
 - 🎮 **Raylib integration** → simple and fast rendering  
-- 🧩 **Bevy ECS** → modern entity-component-system architecture (Not fully yet)  
+- 🧩 **Bevy ECS** → modern entity-component-system architecture   
+- 🎮 **keybord input system** in 'runtimesys.rs'
 - 🖼️ **Customizable draw system** → add any 3D draw function in `draw3d.rs`  
 - 🪟 **Main loop and window setup** → handled in `wint.rs`  
 - 📦 **Library exports** → managed through `lib.rs` and `prelude.rs`  
@@ -22,9 +23,10 @@ It is designed to be **easy to use**, **CPU-friendly**, and **beginner-friendly*
 
 - ✅ Core engine loop (`wint.rs`)  
 - ✅ 3D drawing (`draw3d.rs`)  
+-
 - 🔄 *Coming soon*: 2D rendering support  
 - 🔄 Add more Raylib functions  
-- 🔄 *Coming soon*: ECS examples and demos  
+- ✅ ECS examples dir: minecraft
 
 ---
 
@@ -32,7 +34,7 @@ It is designed to be **easy to use**, **CPU-friendly**, and **beginner-friendly*
 
 - Files `game.rs` and `add.rs` are **not needed** right now.  
 - `lib.rs` links everything together so you can easily `pub use` the engine via `prelude.rs`.  
-
+-Dir mincraft is not a mincraft clone it is just asimple cube and plane and the cube can move useing arrow Keys.
 ---
 
 ### At a glance
