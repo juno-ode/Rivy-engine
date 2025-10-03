@@ -4,7 +4,7 @@
 
 **Rivy** is a lightweight game engine built on top of **Raylib** and **Bevy ECS**.  
 It is designed to be **easy to use**, **CPU-friendly**, and **beginner-friendly** while still giving you the power of ECS.  
-⚠️ Not done adding all of raylibs func *no crate* and right now it is just a bevy_es wrapper for Raylib
+⚠️ Not done adding all of raylibs func *no crate* and right now it is just a bevy_ecs wrapper for Raylib
 
 ---
 
