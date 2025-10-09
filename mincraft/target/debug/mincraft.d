@@ -1,1 +1,0 @@
-/home/juno/Documents/mincraft/target/debug/mincraft: /home/juno/Documents/mincraft/src/main.rs /home/juno/Documents/rivy/src/add.rs /home/juno/Documents/rivy/src/camra3d.rs /home/juno/Documents/rivy/src/darw3d.rs /home/juno/Documents/rivy/src/lib.rs /home/juno/Documents/rivy/src/runtimesys.rs /home/juno/Documents/rivy/src/winit.rs

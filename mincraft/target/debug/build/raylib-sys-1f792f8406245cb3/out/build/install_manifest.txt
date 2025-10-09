@@ -1,7 +1,0 @@
-/home/juno/Documents/mincraft/target/debug/build/raylib-sys-1f792f8406245cb3/out/lib64/libraylib.a
-/home/juno/Documents/mincraft/target/debug/build/raylib-sys-1f792f8406245cb3/out/include/raylib.h
-/home/juno/Documents/mincraft/target/debug/build/raylib-sys-1f792f8406245cb3/out/include/rlgl.h
-/home/juno/Documents/mincraft/target/debug/build/raylib-sys-1f792f8406245cb3/out/include/raymath.h
-/home/juno/Documents/mincraft/target/debug/build/raylib-sys-1f792f8406245cb3/out/lib64/pkgconfig/raylib.pc
-/home/juno/Documents/mincraft/target/debug/build/raylib-sys-1f792f8406245cb3/out/lib64/cmake/raylib/raylib-config-version.cmake
-/home/juno/Documents/mincraft/target/debug/build/raylib-sys-1f792f8406245cb3/out/lib64/cmake/raylib/raylib-config.cmake
