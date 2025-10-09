@@ -1,21 +1,19 @@
- // your engine wrapper
 use bevy_ecs::prelude::*;
-use raylib::prelude::*; // raylib types
+use raylib::prelude::*;
 
-/// Our custom camera component
 #[derive(Component)]
-pub struct CommandedCamera {
-    pub camera: Camera3D,
-    
+pub struct CAMERA {
+    pub camera3d: Camera3D, // the actual Raylib camera
 }
 
-impl CommandedCamera {
+impl CAMERA {
     pub fn new(position: Vector3, target: Vector3, up: Vector3, fovy: f32) -> Self {
-        CommandedCamera {
-            camera: Camera3D::perspective(position, target, up, fovy),
+        Self {
+            camera3d: Camera3D::perspective(position, target, up, fovy),
         }
     }
 }
+
 
 
 

@@ -1,7 +1,8 @@
-use bevy_ecs::prelude::*;
 use raylib::prelude::*;
 
-#[derive(Resource, Clone)]  // << This is the key
+
+// keybord input
+  // << This is the key
 pub struct Input {
     pub keys_down: Vec<KeyboardKey>,
     pub keys_pressed: Vec<KeyboardKey>,

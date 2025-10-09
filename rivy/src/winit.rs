@@ -1,6 +1,6 @@
 use raylib::prelude::*;
 use bevy_ecs::{prelude::*, world};
-use crate::camra3d::CommandedCamera;
+use crate::camra3d::CAMERA;
 use crate::darw3d::render_all;
 use crate::prelude::Input;
 use raylib::ffi;
@@ -17,7 +17,6 @@ pub struct App {
     pub rl: RaylibHandle,
     pub thread: RaylibThread,
     pub world: World,
-    pub camera: CommandedCamera,
     pub cam_mode: CameraMode,
     pub input: Input,
     pub systems: Vec<Box<dyn FnMut(&mut World, &Input)>>,
@@ -30,7 +29,7 @@ impl App {
         width: i32,
         height: i32,
         world: World,
-        cam: CommandedCamera,
+        
         cam_mode: CameraMode,
     ) -> Self {
         let (mut rl, thread) = raylib::init()
@@ -40,12 +39,11 @@ impl App {
 
         rl.set_target_fps(fps);
         enable_backface_culling();
-        rl.hide_cursor();
+        
         Self {
             rl,
             thread,
             world,
-            camera: cam,
             cam_mode,
             input: Input::new(),
             systems: Vec::new(),
@@ -71,19 +69,11 @@ impl App {
                 system(&mut self.world, &self.input);
             }
 
-            // update camera
-            self.rl.update_camera(&mut self.camera.camera, self.cam_mode);
+          
+            render_all(&mut self.world, &mut self.rl, &self.thread);
+            
 
-            // draw
-            let mut d = self.rl.begin_drawing(&self.thread);
-            d.clear_background(Color::BLACK);
-
-            {
-                let mut d3 = d.begin_mode3D(&self.camera.camera);
-                render_all(&mut self.world, &mut d3);
-            }
-
-            d.draw_fps(10, 10);
+            
         }
     }
 }

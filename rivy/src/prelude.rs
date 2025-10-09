@@ -1,6 +1,6 @@
 pub use crate::add::add;
 
-pub use crate::camra3d::CommandedCamera;
+pub use crate::camra3d::CAMERA;
 pub use crate::darw3d::{Cube, Plane, render_all};
 pub use crate::winit::initwindow;
 pub use crate::runtimesys::Input;
