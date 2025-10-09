@@ -25,7 +25,7 @@ It is designed to be **easy to use**, **CPU-friendly**, and **beginner-friendly*
 - ✅ keybord input system  (`runtimesys.rs`)
 - 🔄 *Coming soon*: 2D rendering support  
 - 🔄 Add more Raylib functions  
-- ✅ ECS examples dir: minecraft
+
 
 ---
 
@@ -33,8 +33,7 @@ It is designed to be **easy to use**, **CPU-friendly**, and **beginner-friendly*
 
 - Files `game.rs` and `add.rs` are **not needed** right now.  
 - `lib.rs` links everything together so you can easily `pub use` the engine via `prelude.rs`.  
--Dir mincraft is not a mincraft clone it is just a simple cube and plane and the cube can move useing arrow Keys.
----fixing cam for to be able to channg it Componits
+
 ### At a glance
 - ✔️ What Rivy is  
 - ✔️ How it’s structured  
