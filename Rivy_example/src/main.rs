@@ -44,6 +44,7 @@ fn main() {
         1080,
         world,
         CameraMode::CAMERA_FIRST_PERSON,
+    //Camera mode dose nothing to change the Cameramode you will have to go to the draw3d.rs in rivy/src/draw3d.rs
     );
     
     // Add systems
