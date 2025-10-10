@@ -1,4 +1,4 @@
-# Rivy Game Engine (made in rust)
+#<img width="50" height="50" alt="extension_icon (3)" src="https://github.com/user-attachments/assets/da3733d6-5447-4b09-b6fd-a6ef0f2e424e" /> Rivy Game Engine (made in rust)
 
 
 <img width="2860" height="4288" alt="ray-so-export (2)" src="https://github.com/user-attachments/assets/0b86575b-23e9-4b0e-80bf-f52b3b9b6cec" />
