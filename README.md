@@ -1,7 +1,7 @@
 # Rivy Game Engine (made in rust)
 
 
-<img width="512" height="512" alt="extension_icon (2)" src="https://github.com/user-attachments/assets/5920db8b-4632-4c4a-a508-3ac98ad9b015" />
+
 
 
 
