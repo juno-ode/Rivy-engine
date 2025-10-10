@@ -1,6 +1,7 @@
 # Rivy Game Engine (made in rust)
 
 
+<img width="2860" height="4288" alt="ray-so-export (2)" src="https://github.com/user-attachments/assets/0b86575b-23e9-4b0e-80bf-f52b3b9b6cec" />
 
 
 
