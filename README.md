@@ -1,13 +1,12 @@
-<img width="20" height="20" alt="extension_icon (3)" src="https://github.com/user-attachments/assets/da3733d6-5447-4b09-b6fd-a6ef0f2e424e" /> # Rivy Game Engine (made in rust)
+#<img width="30" height="30" alt="extension_icon (3)" src="https://github.com/user-attachments/assets/da3733d6-5447-4b09-b6fd-a6ef0f2e424e" /> #Rivy Game Engine (made in rust)
 
-
-<img width="2860" height="4288" alt="ray-so-export (2)" src="https://github.com/user-attachments/assets/0b86575b-23e9-4b0e-80bf-f52b3b9b6cec" />
-
-
+<img width="3680" height="6688" alt="ray-so-export (3)" src="https://github.com/user-attachments/assets/6a5cb005-cb6e-479c-9a49-e91c74cad447" />
 
 
 
-<img width="3532" height="4800" alt="ray-so-export" src="https://github.com/user-attachments/assets/481b16e7-1368-43e9-9535-d6995ac6ba8a" />
+
+
+
 
 
 
